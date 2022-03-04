@@ -4,7 +4,7 @@ networks:
 
 services:
   ud-observatorio-master:
-     image: planesticud/ud-observatorio-master
+     image: planesticud/ud-observatorio-master:latest
      container_name: ud-observatorio-master
      restart: on-failure
      env_file:
